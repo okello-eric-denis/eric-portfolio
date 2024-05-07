@@ -57,8 +57,7 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
           sm: 'repeat(1, 0)',
           lg: 'repeat(2, 1fr)',
         }}
-        gap={4}
-      >
+        gap={4}>
         <GridItem
           padding={sideBarPadding}
           marginTop={paddTop}
